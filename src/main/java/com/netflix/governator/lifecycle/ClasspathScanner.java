@@ -158,6 +158,6 @@ public class ClasspathScanner
     private boolean isJarURL(URL url)
     {
         String protocol = url.getProtocol();
-        return "zip".equals(protocol) || "jar".equals(protocol);
+        return "zip".equals(protocol) || "jar".equals(protocol) || "wsjar".equals(protocol);
     }
 }
